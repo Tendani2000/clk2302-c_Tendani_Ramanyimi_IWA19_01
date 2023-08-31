@@ -24,6 +24,15 @@ body {
   font-family: Roboto, sans-serif;
   color: rgba(var(--color-dark), 0.9);
   background: linear-gradient(0deg, rgba(var(--color-dark), 0.2), rgba(var(--color-dark), 0.1)), rgba(var(--color-light), 1);
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
 }
 
 option {
@@ -230,7 +239,7 @@ option {
 .preview__image {
   width: 48px;
   height: 70px;
-  object-fit: cover;
+  object-fit: contain;
   background: grey;
   border-radius: 2px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
